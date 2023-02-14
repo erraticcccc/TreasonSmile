@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{7f708950-27bd-4acb-82ce-735bfb369f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{045f4e6a-8fff-4dbe-b11a-2e81f523dee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{af78f1db-4c83-40e5-8326-a6232038a39a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
